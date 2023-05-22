@@ -1,0 +1,15 @@
+<div class="card m-2 p-5" style="width: 500px;">
+
+  <h1>Stupid coaching</h1>
+
+  <div class="calert alert-light">
+    <p><%= @question %></p>
+    <p><strong>- You</strong></p>
+  </div>
+  <div class="alert alert-warning">
+    <p><%= @answer %></p>
+    <p><strong>- Your coach</strong></p>
+  </div>
+
+  <%= link_to "Ask new question", ask_path %>
+</div>
